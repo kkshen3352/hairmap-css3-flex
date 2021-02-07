@@ -1,0 +1,470 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    height: auto;
+}
+
+a, a:link {
+    /*連結顏色*/
+    color: #3b5998;
+    text-decoration: none;
+}
+
+a:active {
+    color: red;
+}
+
+/*以上按照順序編寫*/
+
+.wrapper {
+    max-width: 960px;
+    max-height: auto;
+    margin: 0 auto;
+}
+
+.logo {
+    /* align-items: center;
+    justify-content: center; */
+    height: 68px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.main-heard {
+    padding: 10px 0;
+    background: #ffffff;
+    /* height: 48px; */
+    /* text-align: right; */
+}
+
+.main-heard li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.heardtext {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hiddenbox {
+    width: 300px;
+}
+
+.heardright a {
+    border: 1px solid red;
+    margin: 10px;
+}
+
+/* .main-nav {
+    display: flex;
+} */
+
+nav {
+    max-width: 960px;
+    height: 550px;
+    margin: 0 auto;
+    background: url("images/9344.jpg") left top;
+}
+
+nav img {
+    /* padding-top: 48px; */
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    display: table-cell;
+}
+
+nav h1 {
+    text-align: center;
+    color: #fff;
+}
+
+nav h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.navbox {
+    width: 480px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 3px;
+    border: 4px solid pink;
+}
+
+nav ul {
+    flex: 1;
+    width: 480px;
+    height: 50px;
+    margin: 0 auto;
+    border: 5px solid pink;
+}
+
+nav li {
+    margin: 20px;
+    color: #fff;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*分隔線*/
+
+.borderbox {
+    width: 3px;
+    height: 33px;
+    margin: 5px;
+    color: pink;
+    background: pink;
+}
+
+/**/
+
+.borderbox2 {
+    width: 91px;
+}
+
+.icon img {
+    margin-top: -45px;
+    /* border: 1px solid red; */
+}
+
+.iconhig {
+    padding-top: 48px;
+    /* border: 1px solid red; */
+}
+
+.iconimgback {
+    background: lightcoral;
+}
+
+/**/
+
+.iconback {
+    margin: 0px auto;
+    background: #aaa;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconback img {
+    margin: 0 auto;
+}
+
+.navtextbox {
+    width: 250px;
+    padding: 10px;
+    margin: 0px auto;
+    color: #fff;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+/*class*/
+
+.hinnerbox {
+    background: rosybrown;
+    border: 1px solid red;
+}
+
+.asidetop {
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.asidetop h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.box4-1 img {
+    width: 230px;
+    height: 276px;
+    margin: 5px auto;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.box4-2 p {
+    width: 100px;
+    height: 30px;
+    margin: -50px auto 0px 137px;
+    color: palevioletred;
+    background: #fafaff;
+    border: 1px solid palevioletred;
+    text-align: center;
+}
+
+.box4-2 img {
+    width: 310px;
+    height: 230px;
+    margin: 2px auto;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.box4-3 h5 {
+    color: #fff;
+    width: 210px;
+    height: 20px;
+    /* border: 1px solid red; */
+    margin: -130px auto 0px;
+    text-shadow: 3px 6px 8px rgb(0, 0, 0);
+}
+
+.btn {
+    float: right;
+    color: #fff;
+    margin: 0px auto;
+    background: palevioletred;
+    border: 1px solid #fff;
+}
+
+.box5-1 {
+    margin-top: 70px;
+    max-width: 1080px;
+    height: 350px;
+    /* background: #aaa; */
+    align-items: center;
+}
+
+/*手機版面*/
+
+.store {
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+    height: 350px;
+    /* border: 1px solid #aaa; */
+}
+
+/* .store img{
+    border: 1px solid red;
+} */
+
+.storetext {
+    text-align: left;
+    margin: 10px;
+    /* border: 1px solid red; */
+}
+
+/*footer*/
+
+.stoertab {
+    align-items: center;
+    justify-content: center;
+    background: url("images/slide1.jpg");
+    background-position: center;
+}
+
+.stoertab p {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 3px 1px #fff;
+    /* border: 1px solid red; */
+    margin: 5px auto;
+}
+
+.stoertabsize {
+    margin-top: 0px;
+    font-size: 5em;
+}
+
+.stoertabsize2 {
+    font-size: 3em;
+}
+
+.textA {
+    display: block;
+    height: 80px;
+    border: 2px dotted #3b5998;
+}
+
+.textti4 button {
+    width: 200px;
+    height: 40px;
+    margin: 5px;
+    /* border: 1px solid red; */
+    opacity: 0.9;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+footer {
+    background: rgb(204, 204, 204);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footlistlogo {
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footlist {
+    
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.footlist img {
+    
+    height: 30px;
+}
+
+.iconsize img {
+    
+    height: 20px;
+}
+
+.footlist p {
+    
+    color: #fff;
+    text-align: left;
+    margin: 10px 10px;
+}
+
+.h666 h6 {
+    color: rgb(255, 107, 107);
+    /* border: 1px solid red; */
+    margin: 0px -75px;
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 960px) {
+    .heardtext {
+        color: #fff;
+        display: none;
+    }
+    .main-heard li a {
+        color: #fff;
+        display: none;
+    }
+    nav {
+        height: calc(100% - 70px);
+    }
+    .iconback {
+        /* border: 1px solid red; */
+        min-height: calc(100vh -180px);
+        background: black;
+        display: flex;
+        flex-direction: column;
+    }
+    .asidetop h1 {
+        font-size: 1em;
+    }
+    /* .iconback img{
+        height: 50px;
+    } */
+    .box4-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn {
+        float: none;
+    }
+    .box4-1 img {
+        margin: 0 10px 10px;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid red; */
+    }
+    .box4-2top p {
+        margin-top: -340px;
+    }
+    .box4-2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box4-2 img {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .box4-3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .box4-3 h5 {
+        margin-bottom: -140px;
+    }
+    .store {
+        margin: 0px auto;
+    }
+    .stoertab {
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+    }
+    .textA {
+        display: none;
+    }
+    .footlist {
+        display: flex;
+        flex-direction: column;
+    }
+    .h666 h6 {
+        margin: 0 auto;
+        margin-left: 25px;
+        margin-top: -24.5px;
+    }
+    @media screen and (max-width: 768px) {
+        nav {
+            background: url("images/138974.jpg");
+        }
+        .box4-1 img {
+            /* border: 1px solid red; */
+            display: block;
+        }
+        .box4-3top {
+            display: flex;
+            flex-direction: column;
+        }
+        .box4-1 img {
+            float: ;
+        }
+        .box4-2 p {
+            margin: 20px;
+            display: none;
+        }
+        .stoertab {
+            align-items: center;
+            justify-content: center;
+            background: url("images/long-hair.jpg");
+            background-position: top;
+        }
+        .footlistlogo {
+            width: 400px;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    @media screen and (max-width:600px) {
+        .imgbox1 {
+            width: calc(50% - 60px);
+        }
+        .navbox {
+            font-size: calc(80% - 3px);
+            width: calc(480px - 50px);
+            height: 50px;
+            margin: 0 auto;
+            padding: 3px;
+            border: 4px solid pink;
+        }
+        .storeimg{
+            max-width: calc(100% - 160px);
+            height: 200px;
+        }
+    }
+}
